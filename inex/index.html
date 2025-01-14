@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="a-container">
+            <a href="tel:(+995 32) 249 26 26" class="a-contact" id="contact1">დაგვიკავშირდი: (+995 32) 249 26 26</a>
+            <a href="mailto:info@inex.ge" class="a-contact" id="contact2">ელ.ფოსტა: info@inex.ge</a>
+        </div>
+        <div class="language-div">
+            <nav>
+                <ul>
+                    <li onclick="changeLanguage('ka')">ქართული</li>
+                    <li onclick="changeLanguage('en')">English</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="logo">
+            <img src="./headerLogo.svg" alt="Logo" />
+        </div>
+        <div class="container-services-wrapper">
+            <div class="container-services">
+                <a href="#" class="a-services" id="service1">სერვისები</a>
+                <a href="#" class="a-services" id="service2">სასარგებლო ინფორმაცია</a>
+                <a href="#" class="a-services" id="service3">რეისები</a>
+                <a href="#" class="a-services" id="service4">ოფისები</a>
+            </div>
+            <div>
+                <button class="white-button"><a href="./login.html" class="white-link" id="register">რეგისტრაცია</a></button>
+                <button class="red-button"><a href="./registration.html" class="red-link" id="login">ავტორიზაცია</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="information">
+        <img src="./Untitled-removebg-preview.png" alt="" class="red-box">
+        <div class="row-container-wrapper">
+            <div class="row-container">
+                <h1 id="exclusive">ექსკლუზიური თანამშრომლობა Taobao-სთან!</h1>
+            </div>
+            
+            <div class="slider">
+                <div class="row-img">
+                    <img src="./Untitled-removebg-preview.png" alt="" class="red-box">
+                </div>
+                <img src="./image1.png" alt="Image 1" class="slider-img active">
+                <img src="./image2.png" alt="Image 2" class="slider-img">
+                <img src="./image3.png" alt="Image 3" class="slider-img">
+                <img src="./image4.png" alt="Image 4" class="slider-img">
+                <button class="prev-btn" onclick="changeImage(-1)">←</button>
+                <button class="next-btn" onclick="changeImage(1)">→</button>
+            </div>
+        </div>
+    </div>
+    <div class="box-container">
+        <div class="box">
+            <img src="./bonusqulebi.png" alt="" class="inf-img">
+            <h2 id="box1">ბონუს ქულები</h2>
+            <p class="p" id="box1desc">დააგროვე ბონუს ქულები და მიიღე ამანათი უფასოდ</p>
+        </div>
+        <div class="box">
+            <img src="./amanatebi mtelsaq.png" alt="" class="inf-img">
+            <h2 id="box2">ამანათები მთელ საქართველოში</h2>
+            <p class="p" id="box2desc">40-ზე მეტ ქალაქში, დამატებითი გადასახადის გარეშე</p>
+        </div>
+        <div class="box">
+            <img src="./sakuriero.png" alt="" class="inf-img">
+            <h2 id="box3">საკურიერო სერვისი</h2>
+            <p class="p" id="box3desc">ამანათების მიტანა თბილისში, ქუთაისსა და რუსთავში</p>
+        </div>
+        <div class="box">
+            <img src="./studenturi.png" alt="" class="inf-img">
+            <h2 id="box4">სტუდენტური ტარიფები</h2>
+            <p class="p" id="box4desc">ტრანსპორტირების შეღავათიანი ტარიფები სტუდენტებისთვის</p>
+        </div>
+        <div class="box">
+            <img src="./persona;uri.png" alt="" class="inf-img">
+            <h2 id="box5">პერსონალური ამანათები</h2>
+            <p class="p" id="box5desc">ამანათები უცხოეთიდან საქართველოში და საქართველოდან ევროპაში</p>
+        </div>
+        <div class="box">
+            <img src="./gamowerashidax.png" alt="" class="inf-img">
+            <h2 id="box6">გამოწერაში დახმარება</h2>
+            <p class="p" id="box6desc">უფასო სერვისი</p>
+        </div>
+        <div class="box">
+            <img src="./dabalipasebi.png" alt="" class="inf-img">
+            <h2 id="box7">დაბალი ტარიფები</h2>
+            <p class="p" id="box7desc">ონლაინ ამანათების ტრანსპორტირება 8 ქვეყნიდან</p>
+        </div>
+    </div>
+    <footer>
+        <div class="grey-box">
+            <div class="left">
+                <img src="./InexLogo.svg" alt="">
+                <p class="info" id="footerDesc">მიიღე და გაგზავნე ამანათები ინექს გრუპის საშუალებით</p>
+                <div class="address">
+                    <div class="contact-item">
+                        <img src="./location.png" alt="">
+                        <p class="contact-p" id="address">ისანი, აწყურის N45</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="./viber.png" alt="">
+                        <p class="contact-p" id="contact">(+995 32) 249 26 26</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="./mail.png" alt="">
+                        <p class="contact-p" id="email">info@inex.ge</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services">
+                <p class="services-p" id="servicesTitle">სერვისები</p>
+                <a href="https://www.inexi.ge/ka/online-parcels" class="services-link" id="serviceLink1">ონლაინ ამანათები</a>
+                <a href="https://www.inexi.ge/ka/personal-parcels" class="services-link" id="serviceLink2">პერსონალური ამანათები</a>
+                <a href="https://www.inexi.ge/ka/commercial-cargo" class="services-link" id="serviceLink3">კოერციული ტვირთები</a>
+                <a href="https://www.inexi.ge/ka/parcels-from-georgia" class="services-link" id="serviceLink4">ამანათები საქართველოდან</a>
+                <a href="https://www.inexi.ge/ka/online-shopping" class="services-link" id="serviceLink5">გამოწერაში დახმარების სერვისი</a>
+                <a href="https://www.inexi.ge/ka/delivery-service" class="services-link" id="serviceLink6">საკურიერო მომსახურება</a>
+                <a href="https://www.inexi.ge/ka/insurance" class="services-link" id="serviceLink7">სადაზღვეო სერვისი</a>
+                <a href="https://www.inexi.ge/ka/bonuses" class="services-link" id="serviceLink8">ბონუს ქულები</a>
+                <a href="https://www.inexi.ge/ka/prices" class="services-link" id="serviceLink9">ფასები</a>
+            </div>
+            <div class="services">
+                <p class="services-p">სასარგებლო ინფორმაცია</p>
+                <a href="https://www.inexi.ge/ka/how-to-buy-online" class="services-link" id="link1">როგორ გამოვიწერო?</a>
+                <a href="https://www.inexi.ge/ka/custom-procedures" class="services-link" id="link2">საბაჟო წესები</a>
+                <a href="https://www.inexi.ge/ka/prohibited-items" class="services-link" id="link3">აკრძალული ნივთები</a>
+                <a href="https://www.inexi.ge/ka/faq" class="services-link" id="link4">ხშირად დასმული კითხვები</a>
+                <a href="https://www.inexi.ge/ka/about-us" class="services-link" id="link5">ჩვენ შესახებ</a>
+                <a href="https://www.inexi.ge/ka/news" class="services-link" id="link6">სიახლეები</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
